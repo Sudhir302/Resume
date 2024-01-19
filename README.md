@@ -1,2 +1,2 @@
 # Resume
-Resume using Semantic html tag
+Resume using Semantic html tags
