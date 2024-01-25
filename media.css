@@ -136,6 +136,7 @@
         padding: 0;
         box-sizing: border-box;
     }
+    /* added for header */
     .picturename{
         width: 100%;
         display: flex;
@@ -167,6 +168,97 @@
         width: 100px;
         height: 110px;
         padding-top: 11px;
+    }
+    /* added for body */
+    .fathercontainer{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        border-left: 2px solid black;
+        margin-left: 3vw;
+        width: 100%;
+    }
+    .maincontainerone{
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+    .contacts{
+        margin-left: 4vw;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .language{
+        margin-left: 4vw;
+        border-bottom: 1px solid black;
+    }
+    .langgroup{
+        margin-left: 4vw;
+    }
+    .english{
+        margin-left: 10vw;
+    }
+    .bhojpuri{
+        margin-left: 10vw;
+    }
+    .maincontainertwo{
+        width: fit-content;
+        border: none;
+        margin: 0;
+        margin-top: 8vw;
+        margin-left: 4vw;
+    }
+    .containerone{
+        margin: 0;
+        border-bottom: 1px solid black;
+    }
+    .profile{
+        border-bottom: 1px solid black;
+    }
+    .profilecontent{
+        margin: 0;
+        margin-bottom: 3vw;
+    }
+    .educationthird{
+        margin-bottom: 3vw;
+    }
+    .subcontainerone{
+        margin-left: 7vw;
+    }
+    .projecthead{
+        margin-top: 0;
+    }
+    .projectthree{
+        margin-bottom: 3vw;
+    }
+    .maincontainerthree{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 6vw;
+    }
+    hr{
+        display: none;
+    }
+    .skills{
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
+    .skillhead{
+        margin-left: 7vw;
+    }
+    .programming{
+        margin-left: 7vw;
+    }
+    .skillfive{
+        margin-bottom: 3vw;
+    }
+    .technicalhead{
+        margin-top: 5vw;
+        margin-left: 7vw;
+    }
+    .tech{
+        margin-left: 7vw;
     }
 }
 /* adding responsiveness from width 412 to 560 */
