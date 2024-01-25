@@ -42,6 +42,8 @@
         margin: 0;
         display: flex;
         flex-wrap: wrap;
+        border-left: 2px solid black;
+        margin-left: 2vw;
     }
     .maincontainerone{
         padding: 0;
@@ -177,6 +179,8 @@
         margin: 0;
         display: flex;
         flex-wrap: wrap;
+        border-left: 2px solid black;
+        margin-left: 2vw;
     }
     .maincontainerone{
         padding: 0;
