@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}.headerdiv{
+}
+body{
+    background-color: bisque;
+}
+.headerdiv{
     width: 100%;
     height: 20px;
     background-color: rgb(12, 8, 94);
@@ -10,39 +14,124 @@
 .picturename{
     display: flex;
     align-items: center;
-    margin: 80px;
-    margin-top: 30px;
+    margin-top: 20px;
+    background-color: rgb(172, 245, 245);
 }
 .picture{
     width: 170px;
     height: 170px;
-    border-radius: 50%;
-    background-image: url(Sudhir\ photo.jpg);
+    clip-path: circle(40.7% at 50% 50%);
     background-repeat: no-repeat;
-    background-size: contain;
     background-color: rgb(168, 168, 159);
+    margin-left: 60px;
 }
 .name{
-    width: 700px;
+    width: 40vw;
     align-self: center;
-    margin-left: 300px;
+    margin-left: 20vw;
     border: none;
-    border-bottom: 1px solid rgb(36, 36, 34);
+    border-bottom: 2px solid rgb(202, 202, 186);
     padding-bottom: 10px;
 }
 .name h1{
-    font-size: 50px;
+    font-size: 3vw;
+    line-height: normal;
+    font-weight: lighter;
     font-family:'Times New Roman', Times, serif;
 }
 .name p{
-    font-size: 20px;
+    font-size: 1.5vw;
     color: rgb(36, 36, 34);
 }
-.horizontal{
-    border: 1px solid black;
-    width: 80%;
-    height: 1px;
+img{
+    width: 160px;
+    height: 200px;
+    padding-top: 15px;
 }
-.maincontainer{
+.fathercontainer{
     display: flex;
+}
+.maincontainerone{
+    border-right: 2px solid black;
+    width: fit-content;
+}
+.contacts{
+    margin-left: 2.5vw;
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+.container{
+    display: flex;
+}
+.subcontainer{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.subcontainer a, strong{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+}
+.details{
+    margin-left: 25px;
+}
+.language{
+    margin-left: 2.5vw;
+
+}
+.lang{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: fit-content;
+}
+
+.langgroup{
+    display: flex;
+    margin-left: 1.7vw;
+}
+.english{
+    margin-left: 4vw;
+}
+.bhojpuri{
+    margin-left: 4vw;
+}
+
+/* adding css for maincontainertwo */
+
+.containerone{
+    margin-left: 3vw;
+}
+.subcontainerone a, p, i{
+    text-decoration: none;
+    line-height: 30px;
+    overflow-wrap: break-word;
+}
+
+.maincontainertwo{
+    border-right: 2px solid black;
+    width: 40vw;
+    border-top: none;
+    border-bottom: none;
+}
+.education{
+    border-bottom: 1px solid black;
+}
+.educationthird{
+    margin-bottom: 1.5vw;
+}
+
+/* adding css for maincontainerthree */
+
+.containertwo{
+    margin-left: 4vw;
+}
+hr{
+    border-color: black;
+    width: 120%;
+}
+h2{
+    width:fit-content;
+    background-color: aquamarine;
 }
