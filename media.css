@@ -42,9 +42,6 @@
         margin: 0;
         display: flex;
         flex-wrap: wrap;
-        border-left: 2px solid black;
-        margin-left: 3vw;
-        width: 100%;
     }
     .maincontainerone{
         padding: 0;
@@ -55,6 +52,11 @@
         margin-left: 4vw;
         border: none;
         border-bottom: 1px solid black;
+    }
+    .subcontainer{
+        margin: 0;
+        margin-left: 2vw;
+        width: ;
     }
     .language{
         margin-left: 4vw;
@@ -175,9 +177,6 @@
         margin: 0;
         display: flex;
         flex-wrap: wrap;
-        border-left: 2px solid black;
-        margin-left: 3vw;
-        width: 100%;
     }
     .maincontainerone{
         padding: 0;

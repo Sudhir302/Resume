@@ -49,6 +49,8 @@ img{
     padding-top: 15px;
 }
 .fathercontainer{
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 .maincontainerone{
@@ -75,7 +77,7 @@ img{
     overflow-wrap: break-word;
 }
 .details{
-    margin-left: 25px;
+    margin-left: 2.5vw;
 }
 .language{
     margin-left: 2.5vw;
