@@ -1,5 +1,5 @@
 /* for screen 376 in mobile */
-@media screen and (max-width:391px){
+@media screen and (max-width:415px){
     *{
         margin: 0;
         padding: 0;
@@ -134,7 +134,7 @@
 }
 
 
-@media screen and (max-width:415px) and (min-width:391px){
+@media screen and (min-width:391px) and (max-width:415px){
     *{
         margin: 0;
         padding: 0;
@@ -264,7 +264,11 @@
         margin-left: 7vw;
     }
 }
-/* adding responsiveness from width 412 to 560 */
+
+
+
+
+/* adding responsiveness from width 415 to 560 */
 @media screen and (min-width:415px) and (max-width:560px){
     *{
         padding: 0;
@@ -303,9 +307,14 @@
     }
 
 }
+
+
+
+
+
 /* adding responsiveness from width 560 to 769 */
 
-@media screen and (max-width:767px) and (min-width: 560px){
+@media screen and (min-width: 560px) and (max-width:767px){
     *{
         padding: 0;
         margin: 0;
@@ -345,14 +354,20 @@
 }
 
 
-/* added responsiveness from width 769 to 912 */
 
-@media screen and (max-width:912px) and (min-width:767px){
+
+
+/* added responsiveness from width 767 to 912 */
+
+@media screen and (min-width:767px) and (max-width:912px){
     *{
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
+
+    /* added for head */
+
     .picturename{
         display: flex;
         margin: 0;
@@ -375,5 +390,49 @@
     }
     .name p{
         font-size: 2vw;
+    }
+
+    /* added for body  */
+
+    .fathercontainer{
+        display: flex;
+        flex-wrap:wrap;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+    .maincontainerone{
+        border: none;
+    }
+    .language{
+        border-bottom: 1px solid black;
+    }
+    .maincontainertwo{
+        border: none;
+        width: 100%;
+        margin-left: 11.21vw;
+        margin-right: 11.2vw;
+        margin-top: 2vw;
+        border-bottom: 1px solid black;
+    }
+    .subcontainerone{
+        margin-left: 3vw;
+    }
+    .maincontainerthree{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        border: none;
+        margin-top: 5vw;
+    }
+    hr{
+        display: none;
+    }
+    .technicalskill{
+        margin-left: 10vw;
     }
 }
