@@ -1,11 +1,14 @@
-/* for screen 376 in mobile */
+/* for screen upto 400px in mobile */
+
 @media screen and (max-width:400px){
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-    /* added for header */
+
+    /* adding for header that is profile picture and name */
+
     .picturename{
         display: flex;
         margin: 0;
@@ -15,7 +18,6 @@
     .name{
         margin: 0;
         margin-left: 30px;
-        width: fit-content;
     }
     .picture{
         width: 100px;
@@ -35,106 +37,187 @@
         padding-top: 10px;
         padding-right: 3px;
     }
-    
-    /* added for body */
+
+    /* adding media for body  */
+
+
     .fathercontainer{
-        padding: 0;
-        margin: 0;
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
-        border-left: 2px solid black;
-        margin-left: 2vw;
+        font-size: 5vw, 5vh;
+        border: none;
     }
+
+    /* added for personal details & language */
+
     .maincontainerone{
+        border: none;
+        margin: 0;
         padding: 0;
-        margin: 0;
-        border: none;
+        width: 100%;
     }
+
     .contacts{
-        margin-left: 4vw;
+        margin: 0;
+        padding: 0;
         border: none;
-        border-bottom: 1px solid black;
-    }
-    .subcontainer{
-        margin: 0;
-        margin-left: 2vw;
-        width: ;
-    }
-    .language{
-        margin-left: 4vw;
-        border-bottom: 1px solid black;
-    }
-    .langgroup{
-        margin-left: 4vw;
-    }
-    .english{
-        margin-left: 10vw;
-    }
-    .bhojpuri{
-        margin-left: 10vw;
-    }
-    .maincontainertwo{
-        width: fit-content;
-        border: none;
-        margin: 0;
-        margin-top: 8vw;
-        margin-left: 4vw;
-    }
-    .containerone{
-        margin: 0;
-        border-bottom: 1px solid black;
-    }
-    .profile{
-        border-bottom: 1px solid black;
-    }
-    .profilecontent{
-        margin: 0;
-        margin-bottom: 3vw;
-    }
-    .educationthird{
-        margin-bottom: 3vw;
-    }
-    .subcontainerone{
-        margin-left: 7vw;
-    }
-    .projecthead{
-        margin-top: 0;
-    }
-    .projectthree{
-        margin-bottom: 3vw;
-    }
-    .maincontainerthree{
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 6vw;
-    }
-    hr{
-        display: none;
-    }
-    .skills{
         border-bottom: 1px solid black;
         width: 100%;
     }
+
+    .subcontainer a, strong{
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .logo{
+        font-size: 3.7vw;
+    }
+    .details{
+        margin: 0;
+        margin-left: 8vw;
+    }
+
+    .container{
+        margin: 0;
+        margin-left: 4vw;
+    }
+
+    .language{
+        margin: 0;
+        margin-top: 4vw;
+        border-bottom: 1px solid black;
+    }
+
+    .lang{
+        margin: 0;
+        margin-left: 8vw;
+    }
+
+    .langgroup{
+        margin: 0;
+        margin-left: 8vw;
+    }
+
+
+    /* added for profile education qualification and projects */
+
+    .maincontainertwo{
+        width: 100%;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .containerone{
+        margin: 0;
+    }
+
+    .profile{
+        margin: 0;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 0;
+    }
+
+    .profilehead{
+        margin: 0;
+        margin-top: 4vw;
+        margin-left: 8vw;
+    }
+
+    .profilecontent{
+        margin-left: 5vw;
+        text-align: justify;
+        padding: 0;
+        padding-right: 2vw;
+        padding-bottom: 4vw;
+    }
+
+    .education{
+        margin: 0;
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 0;
+        padding-bottom: 4vw;
+    }
+
+    .educationhead{
+        margin: 0;
+        margin-left: 8vw;
+    }
+
+    .subcontainerone{
+        margin: 0;
+        margin-left: 8vw;
+    }
+
+    .project{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 4vw;
+        border-bottom: 1px solid black;
+    }
+
+    .projecthead{
+        margin: 0;
+        margin-left: 8vw;
+    }
+
+    /* added for skills */
+
+    .maincontainerthree{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .containertwo{
+        margin: 0;
+        padding: 0;
+        margin-top: 4vw;
+        border-bottom: 1px solid black;
+        padding-bottom: 4vw;
+        width: 100%;
+    }
+    
     .skillhead{
-        margin-left: 7vw;
+        margin: 0;
+        padding: 0;
+        margin-left: 8vw;
     }
+
     .programming{
-        margin-left: 7vw;
+        margin: 0;
+        padding: 0;
+        margin-left: 8vw;
     }
-    .skillfive{
-        margin-bottom: 3vw;
-    }
+
     .technicalhead{
-        margin-top: 5vw;
-        margin-left: 7vw;
+        margin: 0;
+        padding: 0;
+        margin-left: 8vw;
     }
+
     .tech{
-        margin-left: 7vw;
+        margin: 0;
+        padding: 0;
+        margin-left: 8vw;
     }
 }
 
 
-@media screen and (min-width:400px) and (max-width:500px){
+
+/* added fro screens size 400 to 640px */
+
+@media screen and (min-width:400px) and (max-width:640px){
     *{
         margin: 0;
         padding: 0;
@@ -179,187 +262,117 @@
         margin: 0;
         display: flex;
         flex-wrap: wrap;
-        border-left: 2px solid black;
-        margin-left: 2vw;
+        justify-content: center;
     }
+
+
+    /* added for personal details and language  */
+
     .maincontainerone{
         padding: 0;
         margin: 0;
+        width: 95.3%;
         border: none;
     }
     .contacts{
-        margin-left: 4vw;
         border: none;
         border-bottom: 1px solid black;
-    }
-    .language{
-        margin-left: 4vw;
-        border-bottom: 1px solid black;
-    }
-    .langgroup{
-        margin-left: 4vw;
-    }
-    .english{
-        margin-left: 10vw;
-    }
-    .bhojpuri{
-        margin-left: 10vw;
-    }
-    .maincontainertwo{
-        width: fit-content;
-        border: none;
         margin: 0;
-        margin-top: 8vw;
         margin-left: 4vw;
     }
+
+    .details{
+        margin: 0;
+        margin-left: 5vw;
+    }
+
+    .language{
+        margin: 0;
+        padding: 0;
+        margin-left: 4vw;
+        margin-top: 3vw;
+         border-bottom: 1px solid black;
+    }
+
+    .lang{
+        margin: 0;
+        margin-left: 5vw;
+    }
+
+    .english{
+        margin-left: 9vw;
+    }
+
+    .bhojpuri{
+        margin-left: 9vw;
+    }
+
+    .langgroup{
+        margin: 0;
+        margin-left: 4vw;
+    }
+
+    /* added for profile education and project  */
+
+    .maincontainertwo{
+        margin: 0;
+        padding: 0;
+        border: none;
+        width: 95.3%;
+        margin-top: 3vw;
+    }
+
     .containerone{
         margin: 0;
-        border-bottom: 1px solid black;
+        margin-left: 6vw;
     }
-    .profile{
-        border-bottom: 1px solid black;
-    }
+
     .profilecontent{
-        margin: 0;
-        margin-bottom: 3vw;
+        border-bottom: 1px solid black;
     }
-    .educationthird{
-        margin-bottom: 3vw;
+
+    .project{
+        border-bottom: 1px solid black;
     }
-    .subcontainerone{
-        margin-left: 7vw;
-    }
-    .projecthead{
-        margin-top: 0;
-    }
-    .projectthree{
-        margin-bottom: 3vw;
-    }
+    /* added for skills  */
+
     .maincontainerthree{
         display: flex;
         flex-wrap: wrap;
-        margin-top: 6vw;
+        margin: 0;
+        padding: 0;
+        width: 95.3%;
+        margin-top: 3vw;
     }
     hr{
         display: none;
     }
     .skills{
+        margin: 0;
         border-bottom: 1px solid black;
         width: 100%;
+        margin-left: 6vw;
     }
-    .skillhead{
-        margin-left: 7vw;
+
+    .technicalskill{
+        margin: 0;
+        margin-top: 3vw;
+        width: 100%;
     }
-    .programming{
-        margin-left: 7vw;
-    }
-    .skillfive{
-        margin-bottom: 3vw;
-    }
+
     .technicalhead{
-        margin-top: 5vw;
-        margin-left: 7vw;
+        margin-left: 5vw;
     }
+
     .tech{
-        margin-left: 7vw;
+        margin-left: 6vw;
     }
 }
 
 
+/* added responsiveness  from 640 to 912 */
 
-
-/* adding responsiveness from width 415 to 560 */
-@media screen and (min-width:415px) and (max-width:560px){
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .picturename{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        margin-top: 20px;
-    }
-    .picture{
-        margin: 0;
-        padding: 0;
-        width: 150px;
-        height: 150px;
-    }
-    .name{
-        margin: 0;
-        padding: 0;
-        margin-left: 30px;
-        width: 62vw;
-    }
-    .name h1{
-        font-size: 5vw;
-    }
-    .name p{
-        font-size: 3vw;
-    }
-    img{
-        width: 150px;
-        height: 200px;
-        padding:0;
-        padding-top: 12px;
-    }
-
-}
-
-
-
-
-
-/* adding responsiveness from width 560 to 769 */
-
-@media screen and (min-width: 560px) and (max-width:767px){
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .picturename{
-        padding:0;
-        margin: 0;
-        display: flex;
-        margin-top: 1rem;
-    }
-    .picture{
-        padding: 0;
-        margin: 0;
-        width: 150px;
-        height: 150px;
-        margin-left: 2vw;
-    }
-    .name{
-        padding: 0;
-        margin: 0;
-        width: 60vw;
-        margin-left: 11vw;
-    }
-    img{
-        padding: 0;
-        height: 12.8rem;
-        padding-top: .9rem;
-        padding-right: 10px;
-    }
-    .name h1{
-        font-size: 2rem;
-    }
-    .name p{
-        font-size: 1.25rem;
-    }
-}
-
-
-
-
-
-/* added responsiveness from width 767 to 912 */
-
-@media screen and (min-width:767px) and (max-width:912px){
+@media screen and (min-width:640px) and (max-width:912px){
     *{
         padding: 0;
         margin: 0;
@@ -405,34 +418,107 @@
         margin-left: 8vw;
         margin-right: 8vw;
     }
+
+    /* for personal details and language  */
+
     .maincontainerone{
+        margin: 0;
+        padding: 0;
         border: none;
+        width: 76.3%;
     }
+
+    .contacts{
+        margin: 0;
+        padding: 0;
+    }
+
+    .details{
+        margin: 0;
+        padding: 0;
+    }
+
     .language{
+        margin: 0;
+        padding: 0;
         border-bottom: 1px solid black;
     }
+
+    .lang{
+        margin: 0;
+        margin-top: 4vw;
+    }
+
+    /* for profile education and project  */
+
     .maincontainertwo{
+        margin: 0;
+        padding: 0;
         border: none;
+        width: 76.3%;
+        margin-top: 3vw;
+    }
+
+    .containerone{
+        margin: 0;
+        padding: 0;
+    }
+
+    .profile{
+        padding: 0;
+        margin: 0;
         width: 100%;
-        margin-left: 11.21vw;
-        margin-right: 11.2vw;
-        margin-top: 2vw;
         border-bottom: 1px solid black;
     }
-    .subcontainerone{
-        margin-left: 3vw;
+    .profilecontent{
+        text-align: justify;
+        margin: 0;
+        padding: 0;
     }
+
+    .subcontainerone{
+        margin-left: 4vw;
+    }
+    .projecthead{
+        margin: 0;
+    }
+
+    .project{
+        border-bottom: 1px solid black;
+    }
+    /* for skills */
+
+
     .maincontainerthree{
         display: flex;
         margin: 0;
         padding: 0;
-        border: none;
-        margin-top: 5vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 76.3%;
+        margin-top: 3vw;
     }
     hr{
         display: none;
     }
+
+    .containertwo{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .programming{
+        margin-left: 4vw;
+    }
+    .skills{
+        border-bottom: 1px solid black;
+    }
+
     .technicalskill{
-        margin-left: 10vw;
+        margin-top: 3vw;
+    }
+    .tech{
+        margin-left: 4vw;
     }
 }
